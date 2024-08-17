@@ -4,7 +4,7 @@ BookNest is a dynamic and sophisticated web application designed to streamline t
 <h2 text="xl">Features</h2>
 <p>1. Responsive React design for smooth user experience on all devices.</p>
 <p>2. Efficient inventory management: add, edit, delete, and update books.</p>
-<p>3. Secure user authentication for customers and Store managers have access to advanced features for inventory management.</p>
+<p>3. Secure user authentication for customers and Store managers have access to advanced features for management.</p>
 <p>4. Easy search and filters for finding books quickly.</p>
 <p>5. Centralized admin dashboard for managing inventory and orders.</p>
 
