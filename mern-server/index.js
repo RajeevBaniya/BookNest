@@ -8,7 +8,7 @@ const cors = require('cors')
 app.use(cors());
 app.use(express.json());
 
-// 0IJjXLRbMd0k6b2J
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
