@@ -1,15 +1,107 @@
-<h1 align="center">BookNest - MERN Book Store  with Inventory Management</h1> 
-BookNest is a dynamic and sophisticated web application designed to streamline the operations of a modern bookstore. Built on the MERN stack—MongoDB, Express.js, React, and Node.js—this application offers a seamless user experience for both customers and store managers, combining powerful technologies with a user-friendly design.
+<h1 align="center">BookNest</h1>
+<h1 align="center">A modern book store application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).</h1>  
 
-<h2 text="xl">Features</h2>
-<p>1. Responsive React design for smooth user experience on all devices.</p>
-<p>2. Efficient inventory management: add, edit, delete, and update books.</p>
-<p>3. Secure user authentication for customers and Store managers have access to advanced features for management.</p>
-<p>4. Easy search and filters for finding books quickly.</p>
-<p>5. Centralized admin dashboard for managing inventory and orders.</p>
+## Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Flowbite React (UI Components)
+- React Router DOM
+- Chart.js & Recharts (Data Visualization)
+- Swiper (Carousel)
+- Firebase (Authentication)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- CORS
+- dotenv
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/book-store.git
+cd book-store
+```
+
+2. **Install server dependencies:**
+```bash
+cd mern-server
+npm install
+```
+
+3. **Install client dependencies:**
+```bash
+cd ../mern-client
+npm install
+```
+
+4. **Create a `.env` file in the server directory with your MongoDB connection string:**
+```
+MONGODB_URI=your_mongodb_connection_string
+```
+
+### Running the Application
+
+**Start the server:**
+```bash
+cd mern-server
+npm start
+```
+
+**Start the client:**
+```bash
+cd mern-client
+npm run dev
+```
+
+The application will be available at [http://localhost:5173](http://localhost:5173)
+
+## Project Structure
+
+```
+Book Store/
+├── mern-client/         # Frontend React application
+│   ├── src/
+│   │   ├── dashboard/  # Dashboard components
+│   │   └── ...         # Other components
+│   └── package.json
+├── mern-server/        # Backend Node.js application
+│   ├── index.js        # Server entry point
+│   └── package.json
+└── README.md
+```
+
+## Features
+- User authentication
+- Book catalog management
+- Dashboard with analytics
+- Responsive design
+- Real-time updates
+- Data visualization
+
+## Preview
 
 ![preview img](/preview1.png)
 ![preview img](/preview2.png)
 ![preview img](/preview3.png)
 
-<p>Overview : BookNest is designed to provide a comprehensive solution for both customers and store managers. It offers a convenient, secure, and efficient platform for purchasing books and managing inventory, making it the ideal choice for a modern bookstore in the digital age</p>
+## License
+This project is licensed under the MIT License.
+
+
+
+
+
+
+
