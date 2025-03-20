@@ -96,8 +96,6 @@ Book Store/
 ![preview img](/preview2.png)
 ![preview img](/preview3.png)
 
-## License
-This project is licensed under the MIT License.
 
 
 
